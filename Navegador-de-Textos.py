@@ -25,7 +25,7 @@ def iniciar_janela(janela):
     janela.clear()
     janela.refresh()
     
-def digitar_text(janela):
+def digitar_texto(janela):
     texto = ""
     while True:
         tecla = janela.getch()
@@ -54,7 +54,7 @@ def main(janela):
     posi = 0
     while True:
         janela.clear()
-        texto = digitar_text(janela)
+        texto = digitar_texto(janela)
         if texto.strip():  # adiciona apenas textos não vazios
             historico.append(texto)
             atual = historico.tail  # atualiza o atual para o novo nó no final da lista
