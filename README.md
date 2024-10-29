@@ -1,4 +1,4 @@
-# curses-text-navigator
+# Navegador-de-Textos
 
 Este projeto é uma aplicação de **listas duplamente encadeadas** para simular o funcionamento de um **histórico de navegador** em uma interface interativa no terminal. O objetivo é explorar conceitos de **estruturas de dados dinâmicas** e oferecer ao usuário uma navegação intuitiva pelos textos inseridos, utilizando a biblioteca `curses`.
 
