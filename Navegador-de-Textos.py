@@ -6,7 +6,7 @@ class Node:
         self.data = data
         self.next = None # referencia ao proximo nó
         self.prev = None # referencia ao nó anterior
-class lista:
+class Lista:
     def __init__(self) -> None:
         self.head = None # referencia o inicio da lista
         self.tail = None # referencia o final da lista 
@@ -42,7 +42,7 @@ def digitar_texto(janela):
     return texto 
 
 def main(janela):
-    historico = lista()
+    historico = Lista()
     iniciar_janela(janela)
     janela.addstr("Digite suas frases, aperte ENTER e navegue pelo histórico.")
     janela.addstr(2, 0, "Use as setas para navegar. Pressione 'q' para sair.")
